@@ -1,0 +1,7 @@
+# Ignore plaintext .env files
+*.env
+# Don't ignore encrypted .env files
+!*.enc.env
+
+# Ignore /tmp dir that can include unencrypted data while the mcp server is running.
+/tmp

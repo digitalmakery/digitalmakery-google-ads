@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "google-ads": {
+      "command": "sops",
+      "args": ["exec-env", ".enc.env", "make start"]
+    }
+  }
+}
